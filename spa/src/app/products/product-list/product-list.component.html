@@ -1,0 +1,8 @@
+<div class="container">
+    <h3>Listagem de produtos</h3>
+    <ul class="list-group">
+        <li *ngFor="let o of products" class="list-group-item">
+            {{o.name}} - R$ {{o.price}}
+        </li>
+    </ul>
+</div>
